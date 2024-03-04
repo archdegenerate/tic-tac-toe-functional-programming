@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Tic-Tac-Two</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="gap"></div>
+    <div class="play-area">
+      <div class="container">
+        <div class="row d-flex">
+          <div class="col-md-3 tile" id="tile-0-0"></div>
+          <div class="col-md-3 tile" id="tile-0-1"></div>
+          <div class="col-md-3 tile" id="tile-0-2"></div>
+          <div class="col-md-3" id="play-button">
+            <button id="play">Play!</button>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-3 tile" id="tile-1-0"></div>
+          <div class="col-md-3 tile" id="tile-1-1"></div>
+          <div class="col-md-3 tile" id="tile-1-2"></div>
+          <div class="col-md-3" id="message">
+            <!-- <h4>Current turn:</h4> -->
+            <p id="current-turn"></p>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-3 tile" id="tile-2-0"></div>
+          <div class="col-md-3 tile" id="tile-2-1"></div>
+          <div class="col-md-3 tile" id="tile-2-2"></div>
+          <div class="col-md-3" id="reset-button">
+            <button id="reset">Reset</button>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div id="editors-note">
+      <h1>Please make sure you hit the reset button after every game to ensure the game is working properly.</h1>
+    </div>
+    <!-- <script src="script.js"></script> -->
+    <script src="functional.js"></script>
+  </body>
+</html>
